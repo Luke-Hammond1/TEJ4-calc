@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+</head>
+<body>
+	<div>
+		<input type="text" id="result" readonly>
+	</div>
+	<div class="calculator">
+    <button onclick="backspace()">←</button>
+		<button onclick="append('+')" style="height:100px;width:50px;">+</button>
+		<button onclick="append('-')"style="height:100px;width:50px;">-</button>
+		<button onclick="append('*')"style="height:100px;width:50px;">*</button>
+		<button onclick="append('/')"style="height:100px;width:50px;">/</button>
+		<button onclick="calculate()"style="height:100px;width:50px;">=</button>
+		<button onclick="clearResult()" style="height:100px;width:50px;">C</button> 
+		
+</div>
+	</div>
+	<div>
+		<button onclick="append('1')"style="height:100px;width:50px;">1</button>
+		<button onclick="append('2')"style="height:100px;width:50px;">2</button>
+		<button onclick="append('3')"style="height:100px;width:50px;">3</button>
+		<button onclick="append('4')"style="height:100px;width:50px;">4</button>
+		<button onclick="append('5')"style="height:100px;width:50px;">5</button>
+		<button onclick="append('6')"style="height:100px;width:50px;">6</button>
+		<button onclick="append('7')"style="height:100px;width:50px;">7</button>
+		<button onclick="append('8')"style="height:100px;width:50px;">8</button>
+		<button onclick="append('9')"style="height:100px;width:50px;">9</button>
+		<button onclick="append('0')"style="height:100px;width:50px;">0</button>
+		<button onclick="append('.')"style="height:100px;width:50px;">.</button>
+	</div>
+	<script src="calculator.js"></script>
+</body>
+</html>
