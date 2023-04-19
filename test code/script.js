@@ -11,7 +11,7 @@ function clearResult() {
 function checkCode() {
   let code = result.value;
   if (code === '1234') {
-    window.location.href = 'https://www.example.com';
+    window.location.href = 'redirect.html';
   } else {
     result.value = eval(result.value);
   }
