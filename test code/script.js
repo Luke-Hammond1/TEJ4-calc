@@ -15,13 +15,13 @@ function checkCode() {
   let code = result.value;
   if (code === '110+1') {
     window.location.href = 'redirect.html'; 
-  }
-  if (code === '111') {
+  } else if (eval(result.value) === 111) {
     window.location.href = 'redirect.html';
   } else {
     result.value = eval(result.value);
   }
 }
+
 
 
 const checkbox = 
